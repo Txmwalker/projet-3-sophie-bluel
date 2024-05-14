@@ -43,6 +43,7 @@ label {
 }
 
 button{
+    height: 50px;
 	font-family: 'Syne';
 	font-weight: 700;
 	color: white;
