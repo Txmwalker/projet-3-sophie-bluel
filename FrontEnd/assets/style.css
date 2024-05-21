@@ -53,13 +53,30 @@ body {
 	font-family: 'Work Sans' ;
 	font-size: 14px;
 }
+
+#mode-edition {
+	max-width: 1140px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font: inherit;
+}
+
+#mode-edition i {
+	margin-right: 10px;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 	margin: 50px 0
 }
 
-a {text-decoration: none;}
+a {text-decoration: none;
+  color: black;}
+
+#logoutLink { cursor: pointer;}
 
 section {
 	margin: 100px 0

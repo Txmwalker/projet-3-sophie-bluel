@@ -459,6 +459,7 @@ createFilters()
 const modifierButton = document.getElementById("modifier-button")
 const loginLink = document.getElementById("loginLink")
 const logoutLink = document.getElementById("logoutLink")
+const modeEdition = document.getElementById("mode-edition")
 
 //Affichage et masquage des éléments après connexion//
 
@@ -474,6 +475,7 @@ if (sessionStorage!==null){
         filters.classList.add("display-none")
         logoutLink.classList.remove("display-none")
         loginLink.classList.add("display-none")
+        modeEdition.classList.remove("display-none")
         
         console.log("Utilisateur connecté:", user)
 
@@ -483,6 +485,7 @@ if (sessionStorage!==null){
         filters.classList.remove("display-none")
         logoutLink.classList.add("display-none")
         loginLink.classList.remove("display-none")
+        modeEdition.classList.add("display-none")
         console.log("Aucun utilisateur connecté.")
     }
 
